@@ -38,7 +38,7 @@ if 'maturity' not in st.session_state:st.session_state.maturity=2
 if 'project' not in st.session_state:st.session_state.project='Montageanalyse'
 
 with st.sidebar:
-    st.image(str(Path(__file__).parent / 'assets' / 'ktd_logo.jpg'), use_container_width=True)
+    st.image(str(Path(__file__).parent / "ktd_logo.jpg"), use_container_width=True)
     st.markdown('## ◆ KOMPLEXITY')
     st.caption('DECISION INTELLIGENCE PLATFORM')
     st.divider()
